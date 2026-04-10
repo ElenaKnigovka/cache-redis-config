@@ -1,0 +1,21 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "redis": {
+    "connected": true,
+    "uptime_seconds": 3600,
+    "memory_used_mb": 256,
+    "clients_connected": 10,
+    "replication_lag_seconds": 0,
+    "role": "master"
+  },
+  "cache_service": {
+    "version": "1.2.3",
+    "build_id": "abcdef123456",
+    "environment": "production"
+  },
+  "dependencies": {
+    "network": "ok",
+    "disk_space": "ok"
+  }
+}
